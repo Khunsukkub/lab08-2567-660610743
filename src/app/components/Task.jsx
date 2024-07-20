@@ -4,7 +4,7 @@ export default function Task(props) {
     let mystyle ={};
 
     if(props.isDone == true) {
-        mystyle = {"text-decoration": "line-through"};
+        mystyle = {"textDecoration": "line-through"};
     
     }
     return (
